@@ -1,0 +1,82 @@
+{
+  "contacts": [
+    {
+      "id": "D5BMfwlki",
+      "name": "Alisher",
+      "company": "Soft",
+      "email": "ali@gmail.com",
+      "title": "Programmer",
+      "mobile": "9312324567",
+      "photo": "https://gazmasters.ru/wp-content/uploads/2021/02/klipartz.com-6.png",
+      "groupId": "1"
+    },
+    {
+      "name": "Nodir",
+      "photo": "https://cdn-icons-png.flaticon.com/512/236/236831.png",
+      "email": "nodir@gmail.com",
+      "mobile": "902585856",
+      "company": "Agro",
+      "title": "mkn",
+      "groupId": "1",
+      "id": "zT8d6jv"
+    },
+    {
+      "name": "Guli",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQesgOzZSAz72MGG25Th8F0ij0S3fZpqB96ifltAY-hh8wdkoIZzBQun2B27n752aWTI_Q&usqp=CAU",
+      "email": "guli@gmail.com",
+      "mobile": "972563696",
+      "company": "Digital",
+      "title": "ghk",
+      "groupId": "4",
+      "id": "8_9cSr3"
+    },
+    {
+      "name": "Laylo",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuAcRxqqS87KZxHR0TpgXNk9RDKdlFBNiq2bLOTUo7LE3P7oVWkGkXrmLhGjjekvcSV0Y&usqp=CAU",
+      "email": "layloshka@gmail.com",
+      "mobile": "336985663",
+      "company": "Marketing HT",
+      "title": "Jk",
+      "groupId": "2",
+      "id": "p9SR636"
+    },
+    {
+      "name": "Sarvar",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzf03vechbsX1kymSRcQYQJUwEZEwKJ8FaH_-2G1DaFiPBI6a76f4-ht0TaWP9nQPSarA&usqp=CAU",
+      "email": "sarvar@gmail.com",
+      "mobile": "334568962",
+      "company": "IIB",
+      "title": "uz",
+      "groupId": "4",
+      "id": "Dz1OVyM"
+    },
+    {
+      "name": "Jasur",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4B8atlCuIfQQS5r6R3tbhYDSZXv0_y-UnLbYRD98Z3wNxIE1iDA_hzo1JNDGJ6L3zMGw&usqp=CAU",
+      "email": "jasur@gmail.com",
+      "mobile": "932589636",
+      "company": "HT",
+      "title": "mki",
+      "groupId": "2",
+      "id": "5ImHI7A"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Soft"
+    },
+    {
+      "id": "2",
+      "name": "Status"
+    },
+    {
+      "id": "3",
+      "name": "Real"
+    },
+    {
+      "id": "4",
+      "name": "Alfa"
+    }
+  ]
+}

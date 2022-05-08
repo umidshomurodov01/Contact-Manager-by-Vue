@@ -1,29 +1,52 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import Vue from "vue";
+import VueRouter from "vue-router";
+import HomeView from "../views/HomeView.vue";
+import ContactManager from "../views/ContactManager.vue";
+import EditContact from "../views/EditContact.vue";
+import AddContact from "../views/AddContact.vue";
+import ViewContact from "../views/ViewContact.vue";
+import PageNotFound from "../views/PageNotFound.vue";
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
-    component: HomeView
+    path: "/",
+    name: "Home",
+    redirect: "/contacts",
+    component: HomeView,
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
-]
+    path: "/contacts",
+    name: "ContactManager",
+    component: ContactManager,
+  },
+  {
+    path: "/contacts/add",
+    name: "AddContact",
+    component: AddContact,
+  },
+  {
+    path: "/contacts/edit/:contactId",
+    name: "EditContact",
+    component: EditContact,
+  },
+  {
+    path: "/contacts/view/:contactId",
+    name: "ViewContact",
+    component: ViewContact,
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "PageNotFound",
+    component: PageNotFound,
+  },
+];
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: "history",
   base: process.env.BASE_URL,
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
