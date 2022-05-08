@@ -1,24 +1,15 @@
-# vue_contact_project
 
 ## Project setup
 ```
 npm install
 ```
+## json-server start
+cd server
+npm start
 
 ### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![image](https://user-images.githubusercontent.com/100123586/167284928-fdb6fc6c-31c5-4aea-b638-b77fb3d36062.png)
